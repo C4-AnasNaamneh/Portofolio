@@ -1,0 +1,39 @@
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  color: white;
+}
+
+.homeLink {
+  text-decoration: none;
+  margin-top: 10px;
+  color: white;
+
+
+}
+
+.aboutMeLink {
+  text-decoration: none;
+  margin-top: 10px;
+  color: white;
+
+
+}
+
+.resumeLink {
+  text-decoration: none;
+  margin-top: 10px;
+  color: white;
+
+
+}
+
+.contactMeLink {
+  text-decoration: none;
+  margin-top: 10px;
+  color: white;
+
+
+}
+
