@@ -38,7 +38,7 @@
 .change_content:after {
   content: "";
   animation: changeText 10s infinite linear;
-  color: #fbb006;
+  color: #0174B1;
 }
 
 @keyframes changeText {
@@ -72,6 +72,16 @@
   color: black;
   text-decoration: none;
 }
+
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  transform: translate(0rem, 4rem);
+  gap: 10px;
+}
+
 
 .github {
   font-size: xx-large;
@@ -120,6 +130,7 @@
   width: 550px;
   max-width: 100%;
   padding: 0 10px;
+  font-size: larger;
 }
 
 .contentAbout{
@@ -136,14 +147,38 @@
 .contentText h1 {
   text-transform: uppercase;
   word-spacing: 15px;
+  width: 170px;
+padding: 10px 0;
+  border-bottom: 5px solid #0174B1;
+
 }
 
-/* .contentAbout{
-    width: 1280px;
-    max-width: 95%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-} */
+
+.scrollTop {
+  position: fixed;
+  width: 100%;
+  bottom: 50px;
+  float: right;
+  transform: translate(38.2em, -2.5em);
+  height: 20px;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  color: black;
+}
+
+
+.scrollTop:hover{
+  cursor: pointer;
+}
+
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  transform: translate(0rem, 4rem);
+  gap: 10px;
+
+}
