@@ -17,13 +17,20 @@ const Navigation = () => {
           About Me
         </a>
 
-        <a
+        {/* <a
           className="resumeLink"
           href="https://drive.google.com/file/d/1gRGtyoVJ-yTc9Y63mmdjoRz98BgnEZyX/view?usp=sharing"
           target="_blank"
         >
           Resume
-        </a>
+
+
+
+        </a> */}
+
+
+
+        <a href="/#projects" className="ProjectsLink">Projects</a>
 
         <a href="mailto:naamnih.anas@gmail.com" className="contactMeLink">
           Contact Me
