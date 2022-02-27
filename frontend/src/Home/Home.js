@@ -83,7 +83,6 @@ const Home = () => {
               use my skills to the advantage of the company while having the
               scope to develop my own skills.
             </p>
-           
           </div>
         </div>
         <AiOutlineArrowUp
@@ -94,7 +93,7 @@ const Home = () => {
         ></AiOutlineArrowUp>
       </section>
 
-      <h2 className="projectsHeader"> Projects</h2>
+      {/* <h2 className="projectsHeader"> Projects</h2>
       <section className="myProjects" id="projects">
         <a
           className="infoProjects"
@@ -130,6 +129,36 @@ const Home = () => {
 
         </a>
         
+      </section> */}
+
+      <section className="cards" id="projects">
+        <h2 className="title">Projects</h2>
+        <div className="content">
+          <div className="card">
+            <div className="icon">
+              <i class="far fa-code"></i>
+            </div>
+            <div className="info">
+              <h3>E-Commerce</h3>
+              <p>built this project using React</p>
+              <a href="https://github.com/C4-AnasNaamneh/MERAKI_Academy_Project_4" target="_blank" className="links">
+                Click{" "}
+              </a>
+            </div>
+          </div>
+          <div className="card">
+            <div className="icon">
+              <i class="far fa-code"></i>
+            </div>
+            <div className="info">
+              <h3>Donation App</h3>
+              <p>built this project using React</p>
+              <a href="https://safehouse100.herokuapp.com/" target="_blank" className="links" title="link">
+                Click
+              </a>
+            </div>
+          </div>
+        </div>
       </section>
     </>
   );

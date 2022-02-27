@@ -274,3 +274,59 @@
 a {
   text-decoration: none;
 }
+
+
+.cards{
+  margin-top: 90px;
+}
+
+
+.title{
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card{
+  background-color: #fff;
+  width: 21.25em;
+  box-shadow: 0.5px 25px rgba(1 1 1/15%);
+  padding: 25px;
+  margin: 50px;
+}
+
+.card:hover{
+  box-shadow: 1;
+  /* transition: all 0.5s; */
+
+}
+
+.icon{
+  font-size: 8em;
+  text-align: center;
+}
+
+.info h3{
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 20px;
+  text-align: center;
+}
+
+.info p {
+  text-align: center;
+}
+
+.links{
+display: flex;
+justify-content: center;
+margin: 20px;
+font-size: x-large;
+font-weight: 400;
+}
