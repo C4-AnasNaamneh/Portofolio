@@ -7,50 +7,40 @@
   align-items: center;
   background-color: black;
   color: white;
-
-  
 }
 
 .homeLink {
   text-decoration: none;
   margin-top: 10px;
   color: white;
-
-
+  font-size: large;
 }
-
-
 
 .aboutMeLink {
   text-decoration: none;
   margin-top: 10px;
   color: white;
-
-
+  font-size: large;
 }
 
 .resumeLink {
   text-decoration: none;
   margin-top: 10px;
   color: white;
-
-
+  font-size: large;
 }
 
-.ProjectsLink{
+.ProjectsLink {
   text-decoration: none;
 
   margin-top: 10px;
   color: white;
-
+  font-size: large;
 }
-
 
 .contactMeLink {
   text-decoration: none;
   margin-top: 10px;
   color: white;
-
-
+  font-size: large;
 }
-
