@@ -1,8 +1,14 @@
 .nav {
   display: flex;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
   background-color: black;
   color: white;
+
+  
 }
 
 .homeLink {
@@ -12,6 +18,8 @@
 
 
 }
+
+
 
 .aboutMeLink {
   text-decoration: none;

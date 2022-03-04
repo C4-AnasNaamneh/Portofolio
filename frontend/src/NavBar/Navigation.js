@@ -9,15 +9,20 @@ const Navigation = () => {
       <div className="nav">
         <h1 className="webName">Portofolio</h1>
 
+<div>
         <Link to="/" className="homeLink">
           Home
         </Link>
+        </div>
 
+<div>
         <a href="/#about" className="aboutMeLink">
           About Me
         </a>
 
-        {/* <a
+        </div>
+        <div>
+         <a
           className="resumeLink"
           href="https://drive.google.com/file/d/1gRGtyoVJ-yTc9Y63mmdjoRz98BgnEZyX/view?usp=sharing"
           target="_blank"
@@ -26,15 +31,19 @@ const Navigation = () => {
 
 
 
-        </a> */}
+        </a> 
+        </div>
 
 
-
+<div>
         <a href="/#projects" className="ProjectsLink">Projects</a>
+        </div>
 
+<div>
         <a href="mailto:naamnih.anas@gmail.com" className="contactMeLink">
           Contact Me
         </a>
+        </div>
       </div>
     </>
   );

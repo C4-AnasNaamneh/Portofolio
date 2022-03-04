@@ -32,11 +32,10 @@ const Home = () => {
           <section className="whatDo">
             <h3 id="Welcome">Hello,I'M Anas Naamneh</h3>
             <h1 id="header">
-              I am <span className="change_content"></span>
+              I am <span className="change_content">Full Stack Developer</span>
             </h1>
             <br />
             <br />
-            {/* <a className="hire">Hire Me</a> */}
             <a
               className="getResume"
               href="https://drive.google.com/file/d/1gRGtyoVJ-yTc9Y63mmdjoRz98BgnEZyX/view?usp=sharing"
@@ -84,52 +83,15 @@ const Home = () => {
               scope to develop my own skills.
             </p>
           </div>
-        </div>
-        <AiOutlineArrowUp
+          <AiOutlineArrowUp
           className="scrollTop"
           onClick={scrollTop}
           style={{ height: 50, display: showScroll ? "flex" : "none" }}
           title="scroll top"
         ></AiOutlineArrowUp>
+        </div>
+      
       </section>
-
-      {/* <h2 className="projectsHeader"> Projects</h2>
-      <section className="myProjects" id="projects">
-        <a
-          className="infoProjects"
-          href="https://github.com/C4-AnasNaamneh/MERAKI_Academy_Project_4"
-          target="_blank"
-        >
-          <div className="project" title="click here">
-            <img src="./image/E-commerce.jpg" />
-            <br /> <br />
-            <h2 className="name">E-Commerce</h2>
-            <br /> <br />
-            <p className="descriptionProject">
-              built this project using ReactJs
-            </p>
-          </div>
-        </a>
-        <a
-          className="infoProjects"
-          href="https://safehouse100.herokuapp.com/"
-          target="_blank"
-        >
-          <div className="project" title="click here">
-            <img src="./image/donation.jpg" />
-            <br /> <br />
-            <h2 className="name">Safe House</h2>
-            <br /> <br />
-            <p className="descriptionProject">
-              built this project using ReactJs
-              
-            </p>
-            
-          </div>
-
-        </a>
-        
-      </section> */}
 
       <section className="cards" id="projects">
         <h2 className="title">Projects</h2>
@@ -139,9 +101,13 @@ const Home = () => {
               <i class="far fa-code"></i>
             </div>
             <div className="info">
-              <h3>E-Commerce</h3>
+              <h3>E-Commerce App</h3>
               <p>built this project using React</p>
-              <a href="https://github.com/C4-AnasNaamneh/MERAKI_Academy_Project_4" target="_blank" className="links">
+              <a
+                href="https://github.com/C4-AnasNaamneh/MERAKI_Academy_Project_4"
+                target="_blank"
+                className="links"
+              >
                 Click{" "}
               </a>
             </div>
@@ -153,7 +119,12 @@ const Home = () => {
             <div className="info">
               <h3>Donation App</h3>
               <p>built this project using React</p>
-              <a href="https://safehouse100.herokuapp.com/" target="_blank" className="links" title="link">
+              <a
+                href="https://safehouse100.herokuapp.com/"
+                target="_blank"
+                className="links"
+                
+              >
                 Click
               </a>
             </div>
