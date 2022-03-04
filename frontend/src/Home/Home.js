@@ -38,7 +38,7 @@ const Home = () => {
             <br />
             <a
               className="getResume"
-              href="https://drive.google.com/file/d/1FqMP90ApNIc3vxjmM7BJINAzKAwkEiKt/view?usp=sharing"
+              href="https://drive.google.com/file/d/1F4s_5teQ1yuhDSzaZxOcNuCvxA_IZ8Ou/view?usp=sharing"
               target="_blank"
             >
               Get Resume
