@@ -24,7 +24,7 @@ const Navigation = () => {
         <div>
          <a
           className="resumeLink"
-          href="https://drive.google.com/file/d/1gRGtyoVJ-yTc9Y63mmdjoRz98BgnEZyX/view?usp=sharing"
+          href="https://drive.google.com/file/d/1FqMP90ApNIc3vxjmM7BJINAzKAwkEiKt/view?usp=sharing"
           target="_blank"
         >
           Resume
